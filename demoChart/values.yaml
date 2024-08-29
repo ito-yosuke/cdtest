@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: arm64v8/hello-world
+  repository: hello-world
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
