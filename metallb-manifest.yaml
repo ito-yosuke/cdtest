@@ -1989,7 +1989,8 @@ metadata:
   name: first-pool
   namespace: metallb-system
 spec:
-  addresses:- xxx.xxx.xxx.xxx-xxx.xxx.xxx.xxx
+  addresses:
+    - <replaceme>
 ---
 apiVersion: metallb.io/v1beta1
 kind: L2Advertisement
